@@ -1,9 +1,11 @@
-// TODO: Include packages needed for this application
-const inquirer = require('inquirer');
-const fs = require('fs');
-const generatePage = require('./dist/index.html');
+//classes
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 
-// TODO: Create an array of questions for user input
-// TODO: Create a function to write HTML file
-// TODO: Create a function to initialize app
-// Function call to initialize app
+//remember to install npm packages 
+const inquirer = require("inquirer");
+const path = require("path");
+const fs = require("fs");
+
+

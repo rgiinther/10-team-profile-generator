@@ -4,10 +4,11 @@
   "description": "Module 10 Challenge",
   "main": "index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/rgiinther/10-team-profile-generator/issues"
   },
-  "homepage": "https://github.com/rgiinther/10-team-profile-generator#readme"
+  "homepage": "https://github.com/rgiinther/10-team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.0"
+  }
 }
