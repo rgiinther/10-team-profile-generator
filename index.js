@@ -11,9 +11,10 @@ const fs = require("fs");
 
 
 //send to output folder
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(DIST_DIR, "team.html");
+const OUTPUT_DIR = path.resolve(__dirname, "dist");
+const outputPath = path.join(OUTPUT_DIR, "team.html");
 
+const render = require("./dist/htmlrenderer");
 
 // empty team array and id array
 const teamMembers = [];
