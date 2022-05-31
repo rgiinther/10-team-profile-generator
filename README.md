@@ -3,14 +3,15 @@ Module 10 Challenge
 
 Description: 
 
-Object Oriented Programming that generates a webpage to display a team's basic info with quick access to emails and Github profiles. 
+Object Oriented Programming that  uses node.js to generate a html file in order to display a webpage for a team's basic info with quick access to emails and Github profiles. 
 
-Link to video:
+Link to video:https://youtu.be/X-6Ny_o9oDc
 Link to github: https://github.com/rgiinther/10-team-profile-generator
 
 
 Screenshot: 
 <img width="576" alt="Screen Shot 2022-05-30 at 7 44 10 PM" src="https://user-images.githubusercontent.com/98620163/171071960-39700865-d2ba-4605-9dc2-7c35e6087e32.png">
+<img width="1120" alt="Screen Shot 2022-05-30 at 8 07 35 PM" src="https://user-images.githubusercontent.com/98620163/171074659-09019cc2-b695-4cef-bcf3-341f99f2e11e.png">
 
 
 Acceptance Criteria: 
