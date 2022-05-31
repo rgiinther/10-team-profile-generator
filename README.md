@@ -10,6 +10,7 @@ Link to github:
 
 
 Screenshot: 
+<img width="576" alt="Screen Shot 2022-05-30 at 7 44 10 PM" src="https://user-images.githubusercontent.com/98620163/171071960-39700865-d2ba-4605-9dc2-7c35e6087e32.png">
 
 
 Acceptance Criteria: 
