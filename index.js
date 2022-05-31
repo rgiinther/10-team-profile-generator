@@ -119,7 +119,7 @@ function webMenu() {
     });
 }
    // Create an employee
-   function addEmployee() {
+  function addEmployee() {
     inquirer.prompt([
         {
             type: "input",
@@ -134,7 +134,7 @@ function webMenu() {
         },
         {
             type: "input",
-            name: "EmployeeId",
+            name: "employeeId",
             message: "What is your employee's id?",
             validate: answer => {
                 const pass = answer.match(
@@ -167,8 +167,8 @@ function webMenu() {
         },
         {
             type: "input",
-            name: "employeeSchool",
-            message: "What is your employee's school?",
+            name: "employeeGithub",
+            message: "What is your employee's GitHub username?",
             validate: answer => {
                 if (answer !== "") {
                     return true;
@@ -177,7 +177,7 @@ function webMenu() {
             }
         }
     ]).then(answers => {
-        var employee = new Employee(answers.employeeName, answers.employeeId, answers.employeeEmail, answers.employeeSchool);
+        const employee = new Employee(answers.employeeName, answers.employeeId, answers.employeeEmail, answers.employeeGithub);
         teamMembers.push(employee);
         idArray.push(answers.employeeId);
         createTeam();
