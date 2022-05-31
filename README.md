@@ -6,7 +6,7 @@ Description:
 Object Oriented Programming that generates a webpage to display a team's basic info with quick access to emails and Github profiles. 
 
 Link to video:
-Link to github:
+Link to github: https://github.com/rgiinther/10-team-profile-generator
 
 
 Screenshot: 
